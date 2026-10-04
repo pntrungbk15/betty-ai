@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="488" viewBox="0 0 1200 488">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker></defs>
+<rect x="0.5" y="0.5" width="1199" height="487" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="40" y="52" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A" text-anchor="start">Hybrid retrieval and evidence-based estimation</text>
+<text x="40" y="80" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">The estimate is computed from retrieved references; the reasoning text names every reference and weight</text>
+<line x1="297.0" y1="171.0" x2="323.0" y2="171.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="586.0" y1="171.0" x2="612.0" y2="171.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="875.0" y1="171.0" x2="901.0" y2="171.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="1033.5" y1="234" x2="1033.5" y2="280" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="903.0" y1="345.0" x2="877.0" y2="345.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="614.0" y1="345.0" x2="588.0" y2="345.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="325.0" y1="345.0" x2="299.0" y2="345.0" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40.0" y="112" width="253.0" height="118" rx="12" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5"/>
+<rect x="40.0" y="112" width="6" height="118" rx="3" fill="#6D28D9"/>
+<circle cx="70.0" cy="140" r="13" fill="#6D28D9"/>
+<text x="70.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="92.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Query</text>
+<text x="58.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Planner query expanded with</text>
+<text x="58.0" y="187" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">screenshot findings and metadata</text>
+<text x="58.0" y="203" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">hints</text>
+<rect x="329.0" y="112" width="253.0" height="118" rx="12" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1.5"/>
+<rect x="329.0" y="112" width="6" height="118" rx="3" fill="#0F766E"/>
+<circle cx="359.0" cy="140" r="13" fill="#0F766E"/>
+<text x="359.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="381.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Keyword ranking</text>
+<text x="347.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">BM25 (k1 1.5, b 0.75), title</text>
+<text x="347.0" y="187" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">counted twice</text>
+<rect x="618.0" y="112" width="253.0" height="118" rx="12" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1.5"/>
+<rect x="618.0" y="112" width="6" height="118" rx="3" fill="#0F766E"/>
+<circle cx="648.0" cy="140" r="13" fill="#0F766E"/>
+<text x="648.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="670.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Vector ranking</text>
+<text x="636.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">In parallel with BM25: cosine</text>
+<text x="636.0" y="187" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">similarity on dense ticket vectors</text>
+<rect x="907.0" y="112" width="253.0" height="118" rx="12" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1.5"/>
+<rect x="907.0" y="112" width="6" height="118" rx="3" fill="#0F766E"/>
+<circle cx="937.0" cy="140" r="13" fill="#0F766E"/>
+<text x="937.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="959.0" y="145" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Rank fusion</text>
+<text x="925.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Reciprocal rank fusion of both</text>
+<text x="925.0" y="187" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">top-30 lists (k = 60)</text>
+<rect x="907.0" y="286" width="253.0" height="118" rx="12" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1.5"/>
+<rect x="907.0" y="286" width="6" height="118" rx="3" fill="#0F766E"/>
+<circle cx="937.0" cy="314" r="13" fill="#0F766E"/>
+<text x="937.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="959.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Re-rank</text>
+<text x="925.0" y="345" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Term coverage, title overlap,</text>
+<text x="925.0" y="361" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">cosine, metadata match, recency</text>
+<rect x="618.0" y="286" width="253.0" height="118" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.5"/>
+<rect x="618.0" y="286" width="6" height="118" rx="3" fill="#C2410C"/>
+<circle cx="648.0" cy="314" r="13" fill="#C2410C"/>
+<text x="648.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="670.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Filter</text>
+<text x="636.0" y="345" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Top 6 with a minimum score</text>
+<rect x="329.0" y="286" width="253.0" height="118" rx="12" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5"/>
+<rect x="329.0" y="286" width="6" height="118" rx="3" fill="#6D28D9"/>
+<circle cx="359.0" cy="314" r="13" fill="#6D28D9"/>
+<text x="359.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">7</text>
+<text x="381.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Weighted estimate</text>
+<text x="347.0" y="345" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">Mean of reference points, weights =</text>
+<text x="347.0" y="361" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">squared re-rank score</text>
+<rect x="40.0" y="286" width="253.0" height="118" rx="12" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.5"/>
+<rect x="40.0" y="286" width="6" height="118" rx="3" fill="#C2410C"/>
+<circle cx="70.0" cy="314" r="13" fill="#C2410C"/>
+<text x="70.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">8</text>
+<text x="92.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Scope adjustment</text>
+<text x="58.0" y="345" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">One step up or down when criteria</text>
+<text x="58.0" y="361" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#475569" text-anchor="start">differ from the references</text>
+<rect x="40" y="447" width="14" height="14" rx="4" fill="#F5F3FF" stroke="#6D28D9"/>
+<text x="62" y="458" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">AI / model stage</text>
+<rect x="179" y="447" width="14" height="14" rx="4" fill="#F0FDFA" stroke="#0F766E"/>
+<text x="201" y="458" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">Data / retrieval</text>
+<rect x="318" y="447" width="14" height="14" rx="4" fill="#FFF7ED" stroke="#C2410C"/>
+<text x="340" y="458" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" fill="#475569" text-anchor="start">Rules / validation</text>
+</svg>

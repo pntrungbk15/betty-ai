@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="902" viewBox="0 0 1200 902">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker></defs>
+<rect x="0.5" y="0.5" width="1199" height="901" rx="16" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="40" y="52" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="700" fill="#0F172A" text-anchor="start">Betty AI: system architecture</text>
+<text x="40" y="80" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">Browser UI streams each pipeline stage; the core has no web dependency; the model only returns schema-checked JSON</text>
+<rect x="40" y="112" width="1120" height="118" rx="14" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="60" y="146" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#475569" text-anchor="start">Browser UI</text>
+<text x="60" y="212" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">vanilla JS · SSE</text>
+<rect x="230.0" y="126" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#94A3B8"/>
+<text x="242.0" y="150" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Chat + attachments</text>
+<text x="242.0" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Message, pasted or attached screenshots,</text>
+<text x="242.0" y="186" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">live stage progress</text>
+<rect x="538.6666666666667" y="126" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#94A3B8"/>
+<text x="550.6666666666667" y="150" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Inspector tabs</text>
+<text x="550.6666666666667" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Planner, retrieval, image, ticket,</text>
+<text x="550.6666666666667" y="186" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">validation, versions, observability</text>
+<rect x="847.3333333333334" y="126" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#94A3B8"/>
+<text x="859.3333333333334" y="150" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Tracker view</text>
+<text x="859.3333333333334" y="171" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Confirmed tickets, CSV / JSON export</text>
+<line x1="600.0" y1="233" x2="600.0" y2="255" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="260" width="1120" height="118" rx="14" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5"/>
+<text x="60" y="294" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#6D28D9" text-anchor="start">Orchestration</text>
+<text x="60" y="360" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">FastAPI service</text>
+<rect x="230.0" y="274" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="242.0" y="298" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Execution planner</text>
+<text x="242.0" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Route (chat / create / edit / clarify /</text>
+<text x="242.0" y="334" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">confirm), maturity stage, capabilities,</text>
+<text x="242.0" y="349" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">query</text>
+<rect x="538.6666666666667" y="274" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="550.6666666666667" y="298" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Assistant pipeline</text>
+<text x="550.6666666666667" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Runs the stages the planner chose, emits</text>
+<text x="550.6666666666667" y="334" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">events, logs latency and tokens</text>
+<rect x="847.3333333333334" y="274" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#C4B5FD"/>
+<text x="859.3333333333334" y="298" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Model boundary</text>
+<text x="859.3333333333334" y="319" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">One request per task: prompt + context +</text>
+<text x="859.3333333333334" y="334" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">JSON schema; answers checked before use</text>
+<line x1="600.0" y1="381" x2="600.0" y2="403" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="408" width="1120" height="118" rx="14" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1.5"/>
+<text x="60" y="442" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F766E" text-anchor="start">Retrieval and</text>
+<text x="60" y="461" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0F766E" text-anchor="start">evidence</text>
+<text x="60" y="508" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">deterministic</text>
+<rect x="230.0" y="422" width="219.5" height="90" rx="10" fill="#FFFFFF" stroke="#5EEAD4"/>
+<text x="242.0" y="446" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Keyword search</text>
+<text x="242.0" y="467" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">BM25 over title, description,</text>
+<text x="242.0" y="482" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">acceptance criteria</text>
+<rect x="461.5" y="422" width="219.5" height="90" rx="10" fill="#FFFFFF" stroke="#5EEAD4"/>
+<text x="473.5" y="446" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Vector search</text>
+<text x="473.5" y="467" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Dense vectors (LSA in the demo;</text>
+<text x="473.5" y="482" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">pgvector + local embeddings in</text>
+<text x="473.5" y="497" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">production)</text>
+<rect x="693.0" y="422" width="219.5" height="90" rx="10" fill="#FFFFFF" stroke="#5EEAD4"/>
+<text x="705.0" y="446" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Fusion + re-rank</text>
+<text x="705.0" y="467" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Reciprocal rank fusion,</text>
+<text x="705.0" y="482" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">feature-based re-ranker, score</text>
+<text x="705.0" y="497" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">filter</text>
+<rect x="924.5" y="422" width="219.5" height="90" rx="10" fill="#FFFFFF" stroke="#5EEAD4"/>
+<text x="936.5" y="446" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Estimate + metadata</text>
+<text x="936.5" y="467" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Weighted by re-rank score;</text>
+<text x="936.5" y="482" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">references come from the</text>
+<text x="936.5" y="497" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">backend</text>
+<line x1="600.0" y1="529" x2="600.0" y2="551" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="556" width="1120" height="118" rx="14" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.5"/>
+<text x="60" y="590" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#C2410C" text-anchor="start">Validation +</text>
+<text x="60" y="609" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#C2410C" text-anchor="start">rendering</text>
+<rect x="230.0" y="570" width="219.5" height="90" rx="10" fill="#FFFFFF" stroke="#FDBA74"/>
+<text x="242.0" y="594" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Structural check</text>
+<text x="242.0" y="615" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Project › module › process</text>
+<text x="242.0" y="630" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">path, iteration open; one-fix</text>
+<text x="242.0" y="645" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">auto-repair</text>
+<rect x="461.5" y="570" width="219.5" height="90" rx="10" fill="#FFFFFF" stroke="#FDBA74"/>
+<text x="473.5" y="594" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Model check</text>
+<text x="473.5" y="615" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Content quality, effort within</text>
+<text x="473.5" y="630" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">the references&#x27; range</text>
+<rect x="693.0" y="570" width="219.5" height="90" rx="10" fill="#FFFFFF" stroke="#FDBA74"/>
+<text x="705.0" y="594" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Clarification wizard</text>
+<text x="705.0" y="615" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Open gaps become questions with</text>
+<text x="705.0" y="630" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">options from the references</text>
+<rect x="924.5" y="570" width="219.5" height="90" rx="10" fill="#FFFFFF" stroke="#FDBA74"/>
+<text x="936.5" y="594" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Template rendering</text>
+<text x="936.5" y="615" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Ticket card rendered by code</text>
+<text x="936.5" y="630" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">(Jinja); no model-written HTML</text>
+<text x="936.5" y="645" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">or IDs</text>
+<line x1="600.0" y1="677" x2="600.0" y2="699" stroke="#64748B" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="40" y="704" width="1120" height="118" rx="14" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="1.5"/>
+<text x="60" y="738" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#047857" text-anchor="start">Persistence</text>
+<text x="60" y="804" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="start">SQLite per user</text>
+<rect x="230.0" y="718" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#6EE7B7"/>
+<text x="242.0" y="742" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Conversations + versions</text>
+<text x="242.0" y="763" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Messages, attachments, draft versions and</text>
+<text x="242.0" y="778" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">diffs, wizard state</text>
+<rect x="538.6666666666667" y="718" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#6EE7B7"/>
+<text x="550.6666666666667" y="742" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Run traces + usage log</text>
+<text x="550.6666666666667" y="763" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Per-step output, latency, estimated tokens</text>
+<rect x="847.3333333333334" y="718" width="296.6666666666667" height="90" rx="10" fill="#FFFFFF" stroke="#6EE7B7"/>
+<text x="859.3333333333334" y="742" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Mock tracker</text>
+<text x="859.3333333333334" y="763" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#475569" text-anchor="start">Confirmed tickets join the retrieval corpus</text>
+<text x="40" y="868" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">Showcase build: synthetic company and ticket history, deterministic scripted model by default; an OpenAI-compatible endpoint can replace it.</text>
+</svg>
